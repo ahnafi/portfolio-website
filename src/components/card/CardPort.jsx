@@ -17,11 +17,9 @@ function Header(props) {
 function Body(props) {
   return (
     <div className="px-2 h-full">
-      <a href="">
         <h3 className="text-black text-2xl font-bold my-2 tracking-tight">
           {props.title}
         </h3>
-      </a>
       <p className="text-sm text-black">{props.children}</p>
     </div>
   );
