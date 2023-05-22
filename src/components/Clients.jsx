@@ -1,12 +1,10 @@
-function Clients(){
-    return(
-        <section id="clients" className="pt-36 pb-32 bg-slate-700">
+function Clients() {
+  return (
+    <section id="clients" className="pt-36 pb-32 bg-slate-700">
       <div className="container">
         <div className="w-full px-4">
           <div className="max-w-xl text-center mx-auto mb-16">
-            <h4
-              className="font-semibold text-lg text-primary mb-2 hover:text-white"
-            >
+            <h4 className="font-semibold text-lg text-primary mb-2 hover:text-white">
               Clients
             </h4>
             <h2 className="font-bold text-3xl text-white mb-4 sm:text-4xl">
@@ -42,6 +40,6 @@ function Clients(){
         </div>
       </div>
     </section>
-    )
+  );
 }
-export default Clients
+export default Clients;

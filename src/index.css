@@ -4,21 +4,24 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap'); */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap'); */
+
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .hamburger-line {
-    @apply w-[30px] h-[2px] my-2 block bg-slate-200
+  @apply w-[30px] h-[2px] my-2 block bg-slate-200;
 }
 .navbar-fixed {
-    @apply fixed z-[9999] bg-pages  shadow-xl
+  @apply fixed z-[9999] bg-pages  shadow-xl;
 }
 @layer components {
-    .btn-brand {
-      @apply flex justify-center items-center border border-white h-9 w-9 rounded-full transition hover:scale-125;
-    }
+  .btn-brand {
+    @apply flex justify-center items-center border border-white h-9 w-9 rounded-full transition hover:scale-125;
+  }
 }
-.skill-logo{
-    @apply bg-white px-4 py-2 w-36 h-36 lg:w-40 lg:h-40 items-center rounded-xl border-2 border-slate-500 hover:bg-slate-100 shadow-lg flex justify-center hover:scale-110 transition-all
+.skill-logo {
+  @apply bg-white px-4 py-2 w-36 h-36 lg:w-40 lg:h-40 items-center rounded-xl border-2 border-slate-500 hover:bg-slate-100 shadow-lg flex justify-center hover:scale-110 transition-all;
 }
