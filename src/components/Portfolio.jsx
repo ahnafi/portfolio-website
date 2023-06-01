@@ -6,7 +6,7 @@ function Portfolio() {
       id: 1,
       img: "./portfolio/portfolio.jpg",
       title: "My Portfolio",
-      parag: "website portfolio sekarang",
+      parag: "website portfolio sekarang , dibuat dengan Reactjs dan tailwindcss",
       url: "#",
     },
     {
@@ -26,14 +26,6 @@ function Portfolio() {
     },
     {
       id: 4,
-      img: "./portfolio/filmbiasa.jpg",
-      title: "Pencari Detail film",
-      parag:
-        "website pencari film dengan API dari omdb API ,Jquery ,html ,boostsrap",
-      url: "https://ahnafi.github.io/cariFilmPublicAPI",
-    },
-    {
-      id: 5,
       img: "./portfolio/katabijak.png",
       title: "Website Kata Kata Bijak",
       parag:
@@ -41,18 +33,18 @@ function Portfolio() {
       url: "https://ahnafi.github.io/kumpulankatakatabijak",
     },
     {
-      id: 6,
-      img: "./portfolio/doadoa.png",
-      title: "Website Doa Doa sehari hari",
-      parag: "Kumpulan Doa sehari hari",
-      url: "https://ahnafi.github.io/doaharian",
-    },
-    {
-      id: 7,
+      id: 5,
       img: "./portfolio/mvreact.jpg",
       title: "cari info film",
       parag: "website dibuat dengan reactjs untuk latihan",
       url: "https://ahnafi.github.io/mvreactapp/",
+    },
+    {
+      id: 6,
+      img: "./portfolio/welcome.jpeg",
+      title: "Landing Page ",
+      parag: "landing page sample product ,website dibuat dengan reactjs dan tailwindcss ",
+      url: "https://sulthon-curve.vercel.app/",
     },
   ];
   return (
@@ -73,7 +65,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className="flex justify-center gap-2 flex-wrap">
+        <div className="flex justify-center gap-4 flex-wrap">
           {data.map((i) => {
             return (
               <CardPort key={i.id}>

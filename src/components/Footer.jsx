@@ -2,14 +2,14 @@ export default function Footer() {
   return (
     <footer id="footer" className="bg-slate-800 pt-24 pb-12 ">
       <div className="container">
-        <div className="flex flex-wrap ">
+        <div className="flex flex-wrap lg:items-center lg:justify-between">
           <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
-            <h2 className="text-white text-4xl font-bold mb-5">
+            <h2 className="text-white text-4xl font-bold mb-5 -translate-y-1/2">
               ATIK AHNAFI SULTHON
             </h2>
           </div>
-          <div className="w-full px-4 mb-12 md:w-1/2">
-            <h3 className="font-semibold text-xl text-white mb-5">
+          <div className="w-full px-4 mb-12 md:w-1/3" id="contact">
+            <h3 className="font-bold text-4xl text-white mb-5">
               Contact Me
             </h3>
             <ul className="text-slate-200">
@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
 
           <div className="w-full px-4 mb-12 md:w-auto ">
-            <h3 className="font-semibold text-xl text-white mb-5">Tautan</h3>
+            <h3 className="font-bold text-4xl text-white mb-5">Tautan</h3>
             <ul className="text-slate-300">
               <li>
                 <a

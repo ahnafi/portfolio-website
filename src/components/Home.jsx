@@ -40,6 +40,9 @@ function Home() {
                 url="https://github.com/ahnafi"
                 alt="facebook"
               />
+              <a href="#contact" className="px-4 py-2 bg-white rounded-lg text-pages text-lg font-bold transition-all hover:scale-110">
+                Contact Me
+              </a>
             </div>
           </div>
           <div className=" hidden md:block  w-full self-end px-4 lg:w-1/2">
@@ -55,8 +58,12 @@ function Home() {
       </div>
       <div className="flex justify-center items-center  ">
         <div className="transition ease-linear duration-500 hover:animate-none animate-bounce flex">
-        <a href="#about" className="text-5xl bg-teal-300 rounded-full w-12 text-center rotate-180 md:-translate-y-32 lg:-translate-y-28 shadow-lg border  ">^</a>
-
+          <a
+            href="#about"
+            className="text-5xl bg-white rounded-full w-12 text-center rotate-180 md:-translate-y-32 lg:-translate-y-28 shadow-lg font-extrabold text-pages"
+          >
+            ^
+          </a>
         </div>
       </div>
       <Svg />

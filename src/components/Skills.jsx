@@ -18,7 +18,7 @@ const Skills = () => {
             Skills
           </h4>
           <div className=" lg:w-full mx-auto mb-24 flex justify-center">
-            <div className="flex justify-center mt-12 flex-wrap w-full md:max-w-3xl lg:max-w-4xl gap-3 ">
+            <div className="flex justify-center mt-12 flex-wrap w-full md:max-w-3xl  gap-3 ">
               <div className="skill-logo">
                 <img src={html} alt="html" />
               </div>
@@ -35,14 +35,14 @@ const Skills = () => {
                 <img src={Js} alt="html" />
               </div>
               <div className="skill-logo">
-                <img src={Jq} alt="html" />
-              </div>
-              <div className="skill-logo">
                 <img src={react} alt="html" />
               </div>
-              <div className="skill-logo">
+              {/* <div className="skill-logo">
+                <img src={Jq} alt="html" />
+              </div> */}
+              {/* <div className="skill-logo">
                 <img src={php} alt="html" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
