@@ -29,9 +29,9 @@ function Nav() {
             <a
               href="#home"
               id="nav-brand"
-              className="py-3 transition-all font-bold text-2xl text-white hover:text-dark block"
+              className="py-3 font-mono transition-all font-bold text-2xl text-white hover:text-dark block"
             >
-              AS
+              SULTHON
             </a>
           </div>
           <div className="flex items-center px-4">

@@ -34,10 +34,10 @@ function Portfolio() {
     },
     {
       id: 5,
-      img: "./portfolio/mvreact.jpg",
+      img: "./portfolio/srcmovie.jpeg",
       title: "cari info film",
-      parag: "website dibuat dengan reactjs untuk latihan",
-      url: "https://ahnafi.github.io/mvreactapp/",
+      parag: "website untuk mencari detail film , dibuat menggunakan reacjs vite ,tailwindcss",
+      url: "https://sulthon-searchmv.vercel.app/",
     },
     {
       id: 6,
