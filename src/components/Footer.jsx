@@ -1,4 +1,12 @@
+import { useState } from "react";
+import { useEffect } from "react";
+
 export default function Footer() {
+  const [year, setYear] = useState(0);
+  useEffect(() => {
+    setYear (() => new Date().getFullYear())
+  }, []);
+
   return (
     <footer id="footer" className="bg-slate-800 pt-24 pb-12 ">
       <div className="container">
@@ -9,9 +17,7 @@ export default function Footer() {
             </h2>
           </div>
           <div className="w-full px-4 mb-12 md:w-1/3" id="contact">
-            <h3 className="font-bold text-4xl text-white mb-5">
-              Contact Me
-            </h3>
+            <h3 className="font-bold text-4xl text-white mb-5">Contact Me</h3>
             <ul className="text-slate-200">
               <li>
                 <h3 className="font-bold mb-2 text-xl">Email</h3>
@@ -72,8 +78,9 @@ export default function Footer() {
         </div>
         <div className="w-full pt-10 border-t border-slate-700">
           <p className="text-center font-medium text-sm text-slate-500">
-            © 2021 <span className="text-white">Atik Ahnafi Sulthon.</span> All
-            rights reserved.
+            © {year}{" "}
+            <span className="text-white">Atik Ahnafi Sulthon.</span> All rights
+            reserved.
           </p>
         </div>
       </div>
